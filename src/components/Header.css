@@ -61,6 +61,7 @@
   padding: 10px;
   border: none;
   width: 100%;
+  outline-width: 0;
 }
 
 .header__seacrhIcon {
