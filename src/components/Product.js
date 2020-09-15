@@ -21,7 +21,7 @@ function Product({ id, title, price, rating, image }) {
 
   return (
     <div className="product">
-      <div className="produvt__info">
+      <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
           <small>₹</small>
