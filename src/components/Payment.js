@@ -33,9 +33,7 @@ function Payment() {
     getClientSecret();
   }, [basket]);
 
-  console.log('THE SECRET IS >>>', clientSecret);
-
-  const handleSubmit = async event => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     setProcessing(true);
     const payload = await stripe
@@ -69,7 +67,7 @@ function Payment() {
       });
   };
 
-  const handleChange = event => {
+  const handleChange = (event) => {
     // Listen for changes in the CardElement
     // and display any errors as the customer types their card details
     setDisabled(event.empty);
@@ -120,7 +118,7 @@ function Payment() {
 
               <div className="payment__priceContainer">
                 <CurrencyFormat
-                  renderText={value => <h3>Order Total: {value}</h3>}
+                  renderText={(value) => <h3>Order Total: {value}</h3>}
                   decimalScale={2}
                   value={getBasketTotal(basket)}
                   displayType={'text'}
