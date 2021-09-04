@@ -27,6 +27,7 @@
 }
 
 .checkoutProduct__info > button {
+  cursor: pointer;
   background: #f0c14b;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
