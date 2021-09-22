@@ -59,7 +59,7 @@ After running the development server the site should be running on https://local
 <br>
 <b>Backend</b>: Firebase, Firebase functions
 <br>
-<b>Styling</b>: CSS
+<b>Styling</b>: CSS, Material-UI
 <br>
 <b>Payment Getaway</b>: Stripe
 <br>
